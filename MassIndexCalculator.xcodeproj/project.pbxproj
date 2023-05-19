@@ -13,6 +13,7 @@
 		2C78E5672A17E83D009B5F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C78E5652A17E83D009B5F91 /* Main.storyboard */; };
 		2C78E5692A17E83E009B5F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C78E5682A17E83E009B5F91 /* Assets.xcassets */; };
 		2C78E56C2A17E83E009B5F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C78E56A2A17E83E009B5F91 /* LaunchScreen.storyboard */; };
+		2C78E5772A17EC49009B5F91 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C78E5762A17EC48009B5F91 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2C78E5682A17E83E009B5F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C78E56B2A17E83E009B5F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C78E56D2A17E83E009B5F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C78E5762A17EC48009B5F91 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,40 @@
 		2C78E55E2A17E83D009B5F91 /* MassIndexCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				2C78E5752A17E865009B5F91 /* View */,
+				2C78E5742A17E859009B5F91 /* Controllers */,
+				2C78E5732A17E844009B5F91 /* Supporting Files */,
+			);
+			path = MassIndexCalculator;
+			sourceTree = "<group>";
+		};
+		2C78E5732A17E844009B5F91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				2C78E55F2A17E83D009B5F91 /* AppDelegate.swift */,
 				2C78E5612A17E83D009B5F91 /* SceneDelegate.swift */,
-				2C78E5632A17E83D009B5F91 /* ViewController.swift */,
-				2C78E5652A17E83D009B5F91 /* Main.storyboard */,
 				2C78E5682A17E83E009B5F91 /* Assets.xcassets */,
 				2C78E56A2A17E83E009B5F91 /* LaunchScreen.storyboard */,
 				2C78E56D2A17E83E009B5F91 /* Info.plist */,
 			);
-			path = MassIndexCalculator;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C78E5742A17E859009B5F91 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C78E5632A17E83D009B5F91 /* ViewController.swift */,
+				2C78E5762A17EC48009B5F91 /* ResultViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C78E5752A17E865009B5F91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C78E5652A17E83D009B5F91 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 				2C78E5642A17E83D009B5F91 /* ViewController.swift in Sources */,
 				2C78E5602A17E83D009B5F91 /* AppDelegate.swift in Sources */,
 				2C78E5622A17E83D009B5F91 /* SceneDelegate.swift in Sources */,
+				2C78E5772A17EC49009B5F91 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
